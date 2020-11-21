@@ -1,0 +1,166 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#header {
+  text-align: center;
+}
+
+#header img {
+  height: 300px;
+}
+
+#header .headerMidRow {
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: center;
+  background-color: #0f0069;
+  color: #dadada;
+  padding-top: 80px;
+}
+
+#header .headerBottomRow {
+  background-color: #0f0069;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 80px;
+}
+
+#header .headerBottomRow .col-sm-4 {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #241868;
+  color: #dadada;
+  border: #0f0069;
+  border-style: solid;
+}
+
+.col-sm-4 .fontlight {
+  color: lightblue;
+}
+
+#bodySection {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+#bodySection .bodyTopRow {
+  text-align: center;
+  color: #0f0069;
+  padding-top: 20px;
+}
+
+#bodySection .bodyTopRow img {
+  height: 80px;
+}
+
+#bodySection .bodyProductsHead {
+  text-align: center;
+  padding: 20px;
+}
+
+#bodySection .bodyProductsHead h3 {
+  color: #d2003c;
+}
+
+#bodySection .bodyProductsHead h4 {
+  color: #CCCCCC;
+}
+
+#bodySection .bodyProductOne {
+  padding: 20px;
+  background-color: #dadada;
+  border: white;
+  border-style: solid;
+}
+
+#bodySection .bodyProductOne img {
+  height: 300px;
+}
+
+#bodySection .bodyProductOne .col-sm-8 {
+  padding: 20px;
+  color: #0f0069;
+}
+
+#bodySection .bodyProductOne .col-sm-8 h3 {
+  color: #0f0069;
+}
+
+#bodySection .bodyProductTwo {
+  padding: 20px;
+  background-color: #dadada;
+  border: white;
+  border-style: solid;
+}
+
+#bodySection .bodyProductTwo img {
+  height: 300px;
+}
+
+#bodySection .bodyProductTwo .col-sm-8 {
+  padding: 20px;
+  color: #0f0069;
+}
+
+#bodySection .bodyProductTwo .col-sm-8 h3 {
+  color: #0f0069;
+}
+
+#bodySection .bodyInformationsRow {
+  min-height: 300px;
+  background-color: #dadada;
+  border: white;
+  border-style: solid;
+  padding: 20px;
+}
+
+#bodySection .bodyInformationsRow h4 {
+  color: #0f0069;
+}
+
+#bodySection .bodyTestimonials {
+  min-height: 400px;
+  text-align: center;
+  padding: 20px;
+}
+
+#bodySection .bodyTestimonials h3 {
+  color: #d2003c;
+}
+
+#bodySection .bodyTestimonials .vid {
+  min-height: 80%;
+  width: 100%;
+  background-color: #dadada;
+}
+
+#bodySection .bodyFAQRow {
+  text-align: center;
+  padding: 20px;
+  min-height: 300px;
+}
+
+#bodySection .bodyFAQRow h4 {
+  color: #d2003c;
+}
+
+#bodySection .bodyFAQRow p {
+  color: #CCCCCC;
+}
+
+#bodySection .bodyContactRow {
+  text-align: center;
+  padding: 20px;
+  min-height: 300px;
+}
+
+#bodySection .bodyContactRow h4 {
+  color: #d2003c;
+}
+
+#bodySection .bodyContactRow p {
+  color: #CCCCCC;
+}
+/*# sourceMappingURL=styles.css.map */

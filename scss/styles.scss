@@ -1,0 +1,161 @@
+$red: rgb(210, 0, 60);
+$blue: rgb(15, 0, 105);
+$blueLight: rgb(36, 24, 104);
+$yelow: rgb(255, 204, 0);
+$gold: #D9B333;
+$gray: rgb(218, 218, 218);
+$silver: #CCCCCC;
+
+@mixin fullpage {
+  width: 100vw;
+  min-height: 100vh;
+}
+@mixin flexCenter {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+@mixin padding-l-r {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+@mixin product-img {
+  height: 300px;
+}
+
+*{
+  box-sizing: border-box;
+}
+#header{
+  text-align: center;
+  img{
+    height: 300px;
+  }
+  .headerMidRow{
+    @include padding-l-r();
+    text-align: center;
+    background-color: $blue;
+    color: $gray;
+    padding-top: 80px;
+  }
+  .headerBottomRow{
+    background-color: $blue;
+    @include padding-l-r();
+    padding-bottom: 80px;
+    .col-sm-4{
+      box-sizing: border-box;
+      background-color: $blueLight;
+      color: $gray;
+      border: $blue;
+      border-style: solid;
+    }
+  }
+}
+.col-sm-4 {
+  .fontlight{
+    color: lightblue;
+  }
+}
+#bodySection{
+  @include padding-l-r();
+  .bodyTopRow{
+    text-align: center;
+    color: $blue;
+    padding-top: 20px;
+    img{
+      height: 80px;
+    }
+  }
+  .bodyProductsHead{
+    text-align: center;
+    padding: 20px;
+    h3{
+      color: $red;
+    }
+    h4{
+      color: $silver;
+    }
+  }
+  .bodyProductOne{
+    padding: 20px;
+    background-color: $gray;
+    border: white;
+    border-style: solid;
+    
+    img{
+      @include product-img();
+    }
+    .col-sm-8{
+      padding: 20px;
+      color: $blue;
+      h3{
+        color: $blue;
+      }
+    }
+  }
+  .bodyProductTwo{
+    padding: 20px;
+    background-color: $gray;
+    border: white;
+    border-style: solid;
+
+    img{
+      @include product-img();
+    }
+    .col-sm-8{
+      padding: 20px;
+      color: $blue;      
+      h3{
+        color: $blue;
+      }
+    }
+  }
+  .bodyInformationsRow{
+    min-height: 300px;
+    background-color: $gray;
+    border: white;
+    border-style: solid;
+    padding: 20px;
+    h4{
+      color: $blue;
+    }
+    p{
+    }
+  }
+  .bodyTestimonials{
+    min-height: 400px;
+    text-align: center;
+    padding: 20px;
+    h3{
+      color: $red;
+    }
+    .vid{
+      min-height: 80%;
+      width: 100%;
+      background-color: $gray;
+    }
+  }
+  .bodyFAQRow{
+    text-align: center;
+    padding: 20px;
+    min-height: 300px;
+    h4{
+      color: $red;
+    }
+    p{
+      color: $silver;
+    }
+  }
+  .bodyContactRow{
+    text-align: center;
+    padding: 20px;
+    min-height: 300px;
+    h4{
+      color: $red;
+    }
+    p{
+      color: $silver;
+    }
+  }
+}
